@@ -1,0 +1,128 @@
+
+
+body {
+    background-color:darkslategrey;
+}
+
+h1 {
+    color: fuchsia;
+    font-size: 5vw;
+    padding: 10px;
+    font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+    color: orange;
+    font-size: 10vw;
+    padding: -inherit;
+    line-height: 0px;
+}
+
+h3 {
+    color: rgb(9, 22, 22);
+}
+
+#blurb {
+    color: magenta;
+    font-size: 35px;
+}
+
+.firstSection {
+    background-color: gold;
+}
+
+.mainText {
+    font-size: 25px;
+}
+
+#movieList {
+    background-color: rgb(93, 0, 130);
+    border: lawngreen 4px solid;
+    box-sizing: border-box;
+    width: 500px;
+
+}
+
+#mainImage {
+    border: solid fuchsia 50px;
+    width: 500px;
+}
+
+img {
+    width: 100%
+}
+
+#navContainer {
+    border: solid deepskyblue 2px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+#navBar {
+    border:solid teal 2px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0%;
+    font-size: 3vw;
+    background-color: gold;
+    
+
+}
+
+#photoWrap {
+    border: solid yellow 10px
+    width 500px
+}
+
+#videos {
+    border: magenta 20px;
+    box-sizing: border-box;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#EmbeddedPlayer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10%;
+
+}
+
+
+#mediaIcons {
+    display: inline-block;
+    color: deepskyblue;
+
+}  
+
+
+ul li {
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    align-items: left;
+    justify-content: space-evenly;
+}
+
+
+
+ul li a {
+    color: deepskyblue;
+}
+
+ul li:hover a{
+    color: fuchsia;
+}
+/* ul li a:hover {
+    color: fuchsia;
+} */
